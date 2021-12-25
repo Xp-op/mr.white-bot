@@ -1,0 +1,22 @@
+{
+    "title": "mr.white: Help Menu",
+    "desc": "Prefix: `yo `",
+    "prefix": "yo ",
+    "commands": [
+        {
+            "name": "help",
+            "desc": "Show help menu",
+            "args": []
+        },
+        {
+            "name": "ball",
+            "desc": "Check how big is your ball",
+            "args": []
+        },
+        {
+            "name": "mama",
+            "desc": "yo mama joke",
+            "args": []
+        }
+    ]
+}

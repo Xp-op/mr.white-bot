@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ESNext",
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "strict": true,
+        "outDir": "out",
+        "emitDecoratorMetadata": true, // required
+        "experimentalDecorators": true, // required
+        "declaration": false,
+        "importHelpers": true, // required
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "Node", // required
+        "esModuleInterop": true, // required
+        "baseUrl": "./",
+        "paths": {
+            "src/*": ["./src/*"]
+        }
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
